@@ -38,3 +38,15 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ashraflx71&label=Profile%20Views&color=00ff88&style=flat" alt="Views" />
 </p>
+---
+
+### 🌟 مشروعي الرائد (Featured Project)
+<div align="center">
+  <a href="https://ashraflx71.github.io/my-first-app-/">
+    <img src="https://img.shields.io/badge/مشاهدة_التطبيق_الأول-Visit%20My%20First%20App-00ff88?style=for-the-badge&logo=rocket&logoColor=black" />
+  </a>
+</div>
+
+> **ملاحظة:** هذا التطبيق يجسد رؤية عام 2026 في البرمجيات الخضراء الصديقة للبيئة.
+
+---
