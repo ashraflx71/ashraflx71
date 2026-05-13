@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>لوحة التحكم | القائد العام</title>
+    <style>
+        body { background-color: #000; color: #ccff00; font-family: Arial; padding: 20px; font-size: 20px; }
+        .dashboard-card { border: 2px solid #ccff00; border-radius: 15px; padding: 20px; margin-bottom: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        th, td { border: 1px solid #333; padding: 10px; text-align: center; }
+        th { background-color: #111; color: #fff; }
+        .status-paid { color: #00ff00; } /* أخضر للدفع */
+        .status-pending { color: #ff0000; } /* أحمر للمتأخر */
+    </style>
+</head>
+<body>
+    <h1>قمرة قيادة Creative 2026</h1>
+    
+    <div class="dashboard-card">
+        <h3>قائمة العملاء التجاريين</h3>
+        <table>
+            <tr>
+                <th>العميل</th>
+                <th>نوع الخدمة</th>
+                <th>حالة الاشتراك</th>
+                <th>الرابط</th>
+            </tr>
+            <!-- هنا ستضيف العملاء الجدد خطوة بخطوة -->
+            <tr>
+                <td>متجر تجريبي 1</td>
+                <td>قالب محمصة (مدفوع)</td>
+                <td class="status-pending">انتظار الدفع</td>
+                <td><a href="#" style="color: #fff;">زيارة</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="dashboard-card">
+        <h3>مراقبة عمليات YOU</h3>
+        <p>آخر 5 عمليات (Transaction ID) تحتاج مطابقة.</p>
+        <!-- سيتم ربط هذا لاحقاً بقاعدة بيانات Google Sheets -->
+    </div>
+</body>
+</html>
